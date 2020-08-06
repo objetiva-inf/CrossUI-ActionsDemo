@@ -2390,6 +2390,17 @@ xui.Class('App', 'xui.Module',{
                 ])
             );
             
+            host.ctl_pane39.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput10")
+                .setLeft("32em")
+                .setTop("28.19047619047619em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Date Picker")
+                .setType("date")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
